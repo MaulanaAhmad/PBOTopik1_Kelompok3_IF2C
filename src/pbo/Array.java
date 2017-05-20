@@ -227,7 +227,7 @@ public class Array {
                 }
                 else if(input==2){
                     System.out.println(" ");
-                    System.out.println(Kelurahan Dua");
+                    System.out.println("Kelurahan Dua");
                     System.out.println("Pilih RT 1 sampai 4 : ");
                     int w = q.nextInt();
                     if(w==1){
