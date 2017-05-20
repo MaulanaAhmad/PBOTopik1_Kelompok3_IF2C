@@ -10,7 +10,7 @@ package pbo;
  * @author Maulana Ahmad
  */
 public class data {
-    private String NIK, nama, TTL, jenisKelamin, alamat, kota;
+    private String NIK, nama, TTL, jenisKelamin, alamat, kota, golDarah;
     private String RT, Kel, agama, status, pekerjaan,kewarganegaraan;
 
     public String getRT() {
