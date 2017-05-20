@@ -25,7 +25,7 @@ public class data {
         return TTL;
     }
 
-    public void setgolDarag(String golDarah) {
+    public void setgolDarah(String golDarah) {
         this.golDarah = golDarah;
     }
     
