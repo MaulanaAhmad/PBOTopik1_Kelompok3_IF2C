@@ -151,6 +151,26 @@ public class Array {
                             System.out.println("Kota : "+is.getKota());
                         }
                     }
+                    else if(r==3){
+                        for(data is : RT3kel1){
+                            System.out.println("NIK : "+is.getNIK());
+                            System.out.println("Nama : "+is.getNama());
+                            System.out.println("Alamat : "+is.getAlamat());
+                            System.out.println("Kelurahan : "+is.getKel());
+                            System.out.println("RT : "+is.getRT());
+                            System.out.println("Kota : "+is.getKota());
+                        }
+                    }
+                    else if(r==4){
+                        for(data is : RT4kel1){
+                            System.out.println("NIK : "+is.getNIK());
+                            System.out.println("Nama : "+is.getNama());
+                            System.out.println("Alamat : "+is.getAlamat());
+                            System.out.println("Kelurahan : "+is.getKel());
+                            System.out.println("RT : "+is.getRT());
+                            System.out.println("Kota : "+is.getKota());
+                        }
+                    }
                 }
             }
         
