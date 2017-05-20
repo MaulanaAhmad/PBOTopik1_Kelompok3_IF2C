@@ -168,30 +168,48 @@ public class Array {
                         for(data is : RT2kel1){
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
+                            System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
+                            System.out.println("Jenis Kelamin : "+is.getjenisKelamin());
                             System.out.println("Alamat : "+is.getAlamat());
                             System.out.println("Kelurahan : "+is.getKel());
                             System.out.println("RT : "+is.getRT());
                             System.out.println("Kota : "+is.getKota());
+                            System.out.println("Agama : "+is.getagama());
+                            System.out.println("Status : "+is.getstatus());
+                            System.out.println("Pekerjaan : "+is.getpekerjaan());
+                            System.out.println("Kewarganegaraan : "+is.getkewarganegaraan());
                         }
                     }
                     else if(r==3){
                         for(data is : RT3kel1){
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
+                            System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
+                            System.out.println("Jenis Kelamin : "+is.getjenisKelamin());
                             System.out.println("Alamat : "+is.getAlamat());
                             System.out.println("Kelurahan : "+is.getKel());
                             System.out.println("RT : "+is.getRT());
                             System.out.println("Kota : "+is.getKota());
+                            System.out.println("Agama : "+is.getagama());
+                            System.out.println("Status : "+is.getstatus());
+                            System.out.println("Pekerjaan : "+is.getpekerjaan());
+                            System.out.println("Kewarganegaraan : "+is.getkewarganegaraan());
                         }
                     }
                     else if(r==4){
                         for(data is : RT4kel1){
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
+                            System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
+                            System.out.println("Jenis Kelamin : "+is.getjenisKelamin());
                             System.out.println("Alamat : "+is.getAlamat());
                             System.out.println("Kelurahan : "+is.getKel());
                             System.out.println("RT : "+is.getRT());
                             System.out.println("Kota : "+is.getKota());
+                            System.out.println("Agama : "+is.getagama());
+                            System.out.println("Status : "+is.getstatus());
+                            System.out.println("Pekerjaan : "+is.getpekerjaan());
+                            System.out.println("Kewarganegaraan : "+is.getkewarganegaraan());
                         }
                     }
                 }
@@ -202,40 +220,64 @@ public class Array {
                         for(data is : RT1kel2){
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
+                            System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
+                            System.out.println("Jenis Kelamin : "+is.getjenisKelamin());
                             System.out.println("Alamat : "+is.getAlamat());
                             System.out.println("Kelurahan : "+is.getKel());
                             System.out.println("RT : "+is.getRT());
                             System.out.println("Kota : "+is.getKota());
+                            System.out.println("Agama : "+is.getagama());
+                            System.out.println("Status : "+is.getstatus());
+                            System.out.println("Pekerjaan : "+is.getpekerjaan());
+                            System.out.println("Kewarganegaraan : "+is.getkewarganegaraan());
                         }
                     }
                     else if(w==2){
                         for(data is : RT2kel2){
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
+                            System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
+                            System.out.println("Jenis Kelamin : "+is.getjenisKelamin());
                             System.out.println("Alamat : "+is.getAlamat());
                             System.out.println("Kelurahan : "+is.getKel());
                             System.out.println("RT : "+is.getRT());
                             System.out.println("Kota : "+is.getKota());
+                            System.out.println("Agama : "+is.getagama());
+                            System.out.println("Status : "+is.getstatus());
+                            System.out.println("Pekerjaan : "+is.getpekerjaan());
+                            System.out.println("Kewarganegaraan : "+is.getkewarganegaraan());
                         }
                     }
                     else if(w==3){
                         for(data is : RT3kel2){
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
+                            System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
+                            System.out.println("Jenis Kelamin : "+is.getjenisKelamin());
                             System.out.println("Alamat : "+is.getAlamat());
                             System.out.println("Kelurahan : "+is.getKel());
                             System.out.println("RT : "+is.getRT());
                             System.out.println("Kota : "+is.getKota());
+                            System.out.println("Agama : "+is.getagama());
+                            System.out.println("Status : "+is.getstatus());
+                            System.out.println("Pekerjaan : "+is.getpekerjaan());
+                            System.out.println("Kewarganegaraan : "+is.getkewarganegaraan());
                         }
                     }
                     else if(w==4){
                         for(data is : RT4kel2){
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
+                            System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
+                            System.out.println("Jenis Kelamin : "+is.getjenisKelamin());
                             System.out.println("Alamat : "+is.getAlamat());
                             System.out.println("Kelurahan : "+is.getKel());
                             System.out.println("RT : "+is.getRT());
                             System.out.println("Kota : "+is.getKota());
+                            System.out.println("Agama : "+is.getagama());
+                            System.out.println("Status : "+is.getstatus());
+                            System.out.println("Pekerjaan : "+is.getpekerjaan());
+                            System.out.println("Kewarganegaraan : "+is.getkewarganegaraan());
                         }
                     }
                     
