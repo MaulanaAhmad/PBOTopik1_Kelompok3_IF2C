@@ -24,9 +24,12 @@ public class Array {
         ArrayList<data> RT3kel2 = new ArrayList<>();
         ArrayList<data> RT4kel2 = new ArrayList<>();
         
+        boolean menu = true;
+        
         do{
             
             Scanner m = new Scanner(System.in);
+            System.out.println("Selamat Datang");
             System.out.println("Menu E-KTP");
             System.out.println("===============");
             System.out.println("1. Tambah data Form");
@@ -74,10 +77,7 @@ public class Array {
             data.setstatus(status);
             data.setpekerjaan(pekerjaan);
             data.setKota(Kota);
-            data.setkewarganegaraan(kewarganegaraan);
-            
-
-            boolean menu = true;
+            data.setkewarganegaraan(kewarganegaraan);         
 
             Scanner inp = new Scanner(System.in);
                 
@@ -122,7 +122,7 @@ public class Array {
                 aa.nextLine();
                 }else{
                     System.out.println("Maaf RT hanya 1 sampai 4 !!");
-                   
+                    Scanner aa=new Scanner(System.in);
                 }  
             }
             else if(in.equals("2")){
@@ -134,24 +134,29 @@ public class Array {
                     data.setRT("RT 01");
                     data.setKel("Kelurahan Dua");
                     RT1kel2.add(data);
+                    System.out.println("Data dimasukkan");
                     Scanner aa=new Scanner(System.in);
                 }else if(rtt==2){
                     data.setRT("RT 02");
                     data.setKel("Kelurahan Dua");
                     RT2kel2.add(data);
+                    System.out.println("Data dimasukkan");
                     Scanner aa=new Scanner(System.in);
                 }else if(rtt==3){
                     data.setRT("RT 03");
                     data.setKel("Kelurahan Dua");
                     RT3kel2.add(data);
+                    System.out.println("Data dimasukkan");
                     Scanner aa=new Scanner(System.in);
                 }else if(rtt==4){
                     data.setRT("RT 04");
                     data.setKel("Kelurahan Dua");
                     RT4kel2.add(data);
+                    System.out.println("Data dimasukkan");
                     Scanner aa=new Scanner(System.in);
                 }else{
                     System.out.println("Maaf RT hanya 1 sampai 4 !!");
+                    Scanner aa=new Scanner(System.in);
                 }
             }
                 
