@@ -172,6 +172,51 @@ public class Array {
                         }
                     }
                 }
+                else if(input==2){
+                    System.out.println("Pilih RT 1 sampai 4 : ");
+                    int w = q.nextInt();
+                    if(w==1){
+                        for(data is : RT1kel2){
+                            System.out.println("NIK : "+is.getNIK());
+                            System.out.println("Nama : "+is.getNama());
+                            System.out.println("Alamat : "+is.getAlamat());
+                            System.out.println("Kelurahan : "+is.getKel());
+                            System.out.println("RT : "+is.getRT());
+                            System.out.println("Kota : "+is.getKota());
+                        }
+                    }
+                    else if(w==2){
+                        for(data is : RT2kel2){
+                            System.out.println("NIK : "+is.getNIK());
+                            System.out.println("Nama : "+is.getNama());
+                            System.out.println("Alamat : "+is.getAlamat());
+                            System.out.println("Kelurahan : "+is.getKel());
+                            System.out.println("RT : "+is.getRT());
+                            System.out.println("Kota : "+is.getKota());
+                        }
+                    }
+                    else if(w==3){
+                        for(data is : RT3kel2){
+                            System.out.println("NIK : "+is.getNIK());
+                            System.out.println("Nama : "+is.getNama());
+                            System.out.println("Alamat : "+is.getAlamat());
+                            System.out.println("Kelurahan : "+is.getKel());
+                            System.out.println("RT : "+is.getRT());
+                            System.out.println("Kota : "+is.getKota());
+                        }
+                    }
+                    else if(w==4){
+                        for(data is : RT4kel2){
+                            System.out.println("NIK : "+is.getNIK());
+                            System.out.println("Nama : "+is.getNama());
+                            System.out.println("Alamat : "+is.getAlamat());
+                            System.out.println("Kelurahan : "+is.getKel());
+                            System.out.println("RT : "+is.getRT());
+                            System.out.println("Kota : "+is.getKota());
+                        }
+                    }
+                    
+                }
             }
         
         }while(true);
