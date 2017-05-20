@@ -38,6 +38,7 @@ public class Array {
             if(mn==1){
                 
             Scanner scan = new Scanner(System.in);
+            System.out.println(" ");    
             System.out.println("NIK : ");
             String NIK = scan.nextLine();
             System.out.println("Nama : ");
@@ -58,6 +59,7 @@ public class Array {
             String Kota = scan.nextLine();
             System.out.println("Kewarganegaraan : ");
             String kewarganegaraan = scan.nextLine();
+            System.out.println(" ");
 
             data data = new data();
             data.setNIK(NIK);
@@ -75,13 +77,15 @@ public class Array {
             boolean menu = true;
 
             Scanner inp = new Scanner(System.in);
-            
+                
+            System.out.println(" ");
             System.out.println("Pilih Kelurahan : ");
             System.out.println("1. Kelurahan Satu");
             System.out.println("2. Kelurahan Dua");
             System.out.println("Pilihan : ");
             String in = inp.nextLine();
             if(in.equals("1")){
+                System.out.println(" ");
                 System.out.println("Kelurahan Satu");
                 System.out.println("Masukkan RT (1-4) : ");
                 int rt = inp.nextInt();
@@ -114,6 +118,7 @@ public class Array {
                 }  
             }
             else if(in.equals("2")){
+                System.out.println(" ");
                 System.out.println("Kelurahan Dua");
                 System.out.println("Masukkan RT (1-4)");
                 int rtt = inp.nextInt();
@@ -140,17 +145,20 @@ public class Array {
             }
             else if(mn==2){
                 Scanner q = new Scanner(System.in);
+                System.out.println(" ");
                 System.out.println("Pilih Data yg akan ditampilkan ");
                 System.out.println("1) Kelurahan Satu");
                 System.out.println("2) Kelurana Dua");
                 System.out.println("Pilihan : ");
                 int input = q.nextInt();
                 if(input==1){
+                    System.out.println(" ");
                     System.out.println("Kelurahan Satu");
                     System.out.println("Pilih RT 1 sampai 4 : ");
                     int r = q.nextInt();
                     if(r==1){
                         for(data is : RT1kel1){
+                            System.out.println(" ");
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
                             System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
@@ -167,6 +175,7 @@ public class Array {
                     }
                     else if(r==2){
                         for(data is : RT2kel1){
+                            System.out.println(" ");
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
                             System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
@@ -183,6 +192,7 @@ public class Array {
                     }
                     else if(r==3){
                         for(data is : RT3kel1){
+                            System.out.println(" ");
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
                             System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
@@ -199,6 +209,7 @@ public class Array {
                     }
                     else if(r==4){
                         for(data is : RT4kel1){
+                            System.out.println(" ");
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
                             System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
@@ -215,11 +226,13 @@ public class Array {
                     }
                 }
                 else if(input==2){
+                    System.out.println(" ");
                     System.out.println(Kelurahan Dua");
                     System.out.println("Pilih RT 1 sampai 4 : ");
                     int w = q.nextInt();
                     if(w==1){
                         for(data is : RT1kel2){
+                            System.out.println(" ");
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
                             System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
@@ -236,6 +249,7 @@ public class Array {
                     }
                     else if(w==2){
                         for(data is : RT2kel2){
+                            System.out.println(" ");
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
                             System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
@@ -252,6 +266,7 @@ public class Array {
                     }
                     else if(w==3){
                         for(data is : RT3kel2){
+                            System.out.println(" ");
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
                             System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
@@ -268,6 +283,7 @@ public class Array {
                     }
                     else if(w==4){
                         for(data is : RT4kel2){
+                            System.out.println(" ");
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
                             System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
