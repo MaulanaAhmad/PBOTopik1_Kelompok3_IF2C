@@ -41,18 +41,19 @@ public class Array {
             System.out.println("NIK : ");
             String NIK = scan.nextLine();
             System.out.println("Nama : ");
-                System.out.println("Tempat Tanggal Lahir : ");
-                String TTL = scan.nextLine();
+            String nama = scan.nextLine();
+            System.out.println("Tempat Tanggal Lahir : ");
+            String TTL = scan.nextLine();
             System.out.println("Alamat : ");
             String Alamat = scan.nextLine();
-                System.out.println("Jenis Kelamin : ");
-                String jenisKelamin = scan.nextLine();
-                System.out.println("Agama : ");
-                String agama = scan.nextLine();
-                System.out.println("Status Perkawinan : ");
-                String status = scan.nextLine();
-                System.out.println("Pekerjaan : ");
-                String pekerjaan = scan.nextLine();
+            System.out.println("Jenis Kelamin : ");
+            String jenisKelamin = scan.nextLine();
+            System.out.println("Agama : ");
+            String agama = scan.nextLine();
+            System.out.println("Status Perkawinan : ");
+            String status = scan.nextLine();
+            System.out.println("Pekerjaan : ");
+            String pekerjaan = scan.nextLine();
             System.out.println("Kota : ");
             String Kota = scan.nextLine();
             System.out.println("Kewarganegaraan : ");
@@ -60,7 +61,7 @@ public class Array {
 
             data data = new data();
             data.setNIK(NIK);
-            data.setNama(Nama);
+            data.setNama(nama);          
             data.setTTL(TTL);
             data.setAlamat(Alamat);
             data.setjenisKelamin(jenisKelamin);
