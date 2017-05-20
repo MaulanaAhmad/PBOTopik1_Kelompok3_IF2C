@@ -58,7 +58,7 @@ public class Array {
 
             Scanner inp = new Scanner(System.in);
                 System.out.println("");
-            //System.out.println("e-KTP");
+            System.out.println("e-KTP");
             System.out.println("Pilih Kelurahan : ");
             System.out.println("1. Kelurahan Satu");
             System.out.println("2. Kelurahan Dua");
@@ -133,6 +133,16 @@ public class Array {
                     int r = q.nextInt();
                     if(r==1){
                         for(data is : RT1kel1){
+                            System.out.println("NIK : "+is.getNIK());
+                            System.out.println("Nama : "+is.getNama());
+                            System.out.println("Alamat : "+is.getAlamat());
+                            System.out.println("Kelurahan : "+is.getKel());
+                            System.out.println("RT : "+is.getRT());
+                            System.out.println("Kota : "+is.getKota());
+                        }
+                    }
+                    else if(r==2){
+                        for(data is : RT2kel1){
                             System.out.println("NIK : "+is.getNIK());
                             System.out.println("Nama : "+is.getNama());
                             System.out.println("Alamat : "+is.getAlamat());
