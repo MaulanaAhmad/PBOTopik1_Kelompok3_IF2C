@@ -38,7 +38,6 @@ public class Array {
             if(mn==1){
                 
             Scanner scan = new Scanner(System.in);
-            //System.out.println("Form e-KTP");
             System.out.println("NIK : ");
             String NIK = scan.nextLine();
             System.out.println("Nama : ");
@@ -58,7 +57,7 @@ public class Array {
 
             Scanner inp = new Scanner(System.in);
                 System.out.println("");
-            System.out.println("e-KTP");
+            
             System.out.println("Pilih Kelurahan : ");
             System.out.println("1. Kelurahan Satu");
             System.out.println("2. Kelurahan Dua");
