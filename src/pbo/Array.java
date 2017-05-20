@@ -47,6 +47,8 @@ public class Array {
             String TTL = scan.nextLine();
             System.out.println("Alamat : ");
             String Alamat = scan.nextLine();
+            System.out.println("Gol. Darah : ");
+            String golDarah = scan.nextLine();
             System.out.println("Jenis Kelamin : ");
             String jenisKelamin = scan.nextLine();
             System.out.println("Agama : ");
@@ -67,6 +69,7 @@ public class Array {
             data.setTTL(TTL);
             data.setAlamat(Alamat);
             data.setjenisKelamin(jenisKelamin);
+            data.setgolDarah(golDarah);
             data.setagama(agama);
             data.setstatus(status);
             data.setpekerjaan(pekerjaan);
@@ -126,29 +129,34 @@ public class Array {
                     data.setRT("RT 01");
                     data.setKel("Kelurahan Dua");
                     RT1kel2.add(data);
+                    Scanner aa=new Scanner(System.in);
                 }else if(rtt==2){
                     data.setRT("RT 02");
                     data.setKel("Kelurahan Dua");
                     RT2kel2.add(data);
+                    Scanner aa=new Scanner(System.in);
                 }else if(rtt==3){
                     data.setRT("RT 03");
                     data.setKel("Kelurahan Dua");
                     RT3kel2.add(data);
+                    Scanner aa=new Scanner(System.in);
                 }else if(rtt==4){
                     data.setRT("RT 04");
                     data.setKel("Kelurahan Dua");
                     RT4kel2.add(data);
+                    Scanner aa=new Scanner(System.in);
                 }else{
                     System.out.println("Maaf RT hanya 1 sampai 4 !!");
                 }
             }
+                
             }
             else if(mn==2){
                 Scanner q = new Scanner(System.in);
                 System.out.println(" ");
                 System.out.println("Pilih Data yg akan ditampilkan ");
                 System.out.println("1) Kelurahan Satu");
-                System.out.println("2) Kelurana Dua");
+                System.out.println("2) Keluranan Dua");
                 System.out.println("Pilihan : ");
                 int input = q.nextInt();
                 if(input==1){
@@ -163,6 +171,7 @@ public class Array {
                             System.out.println("Nama : "+is.getNama());
                             System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
                             System.out.println("Jenis Kelamin : "+is.getjenisKelamin());
+                            System.out.println("Golongan Darah : "+is.getgolDarah());
                             System.out.println("Alamat : "+is.getAlamat());
                             System.out.println("Kelurahan : "+is.getKel());
                             System.out.println("RT : "+is.getRT());
@@ -180,6 +189,7 @@ public class Array {
                             System.out.println("Nama : "+is.getNama());
                             System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
                             System.out.println("Jenis Kelamin : "+is.getjenisKelamin());
+                            System.out.println("Golongan Darah : "+is.getgolDarah());
                             System.out.println("Alamat : "+is.getAlamat());
                             System.out.println("Kelurahan : "+is.getKel());
                             System.out.println("RT : "+is.getRT());
@@ -197,6 +207,7 @@ public class Array {
                             System.out.println("Nama : "+is.getNama());
                             System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
                             System.out.println("Jenis Kelamin : "+is.getjenisKelamin());
+                            System.out.println("Golongan Darah : "+is.getgolDarah());
                             System.out.println("Alamat : "+is.getAlamat());
                             System.out.println("Kelurahan : "+is.getKel());
                             System.out.println("RT : "+is.getRT());
@@ -214,6 +225,7 @@ public class Array {
                             System.out.println("Nama : "+is.getNama());
                             System.out.println("Tempat/Tgl Lahir : "+is.getTTL());
                             System.out.println("Jenis Kelamin : "+is.getjenisKelamin());
+                            System.out.println("Golongan Darah : "+is.getgolDarah());
                             System.out.println("Alamat : "+is.getAlamat());
                             System.out.println("Kelurahan : "+is.getKel());
                             System.out.println("RT : "+is.getRT());
@@ -302,6 +314,7 @@ public class Array {
                 }
             }else{
                 System.out.println("Maaf, Pilihan hanya 1 dan 2 !!");
+                Scanner aa=new Scanner(System.in);
             }
         
         }while(true);
