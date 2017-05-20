@@ -25,6 +25,14 @@ public class data {
         return TTL;
     }
 
+    public void setgolDarag(String golDarah) {
+        this.golDarah = golDarah;
+    }
+    
+    public String getgolDarah() {
+        return golDarah;
+    }
+
     public void setTTL(String TTL) {
         this.TTL = TTL;
     }
@@ -109,7 +117,5 @@ public class data {
         this.kota = kota;
     }
     
-    
-    
-    
+       
 }
