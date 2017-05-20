@@ -146,6 +146,7 @@ public class Array {
                 System.out.println("Pilihan : ");
                 int input = q.nextInt();
                 if(input==1){
+                    System.out.println("Kelurahan Satu");
                     System.out.println("Pilih RT 1 sampai 4 : ");
                     int r = q.nextInt();
                     if(r==1){
@@ -214,6 +215,7 @@ public class Array {
                     }
                 }
                 else if(input==2){
+                    System.out.println(Kelurahan Dua");
                     System.out.println("Pilih RT 1 sampai 4 : ");
                     int w = q.nextInt();
                     if(w==1){
