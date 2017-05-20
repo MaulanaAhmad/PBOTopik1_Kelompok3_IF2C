@@ -28,10 +28,10 @@ public class Array {
             
             Scanner m = new Scanner(System.in);
             System.out.println("Menu E-KTP");
-            System.out.println("=============");
+            System.out.println("===============");
             System.out.println("1. Tambah data Form");
-            System.out.println("2. Tampilkan data");
-            System.out.println("=============");
+            System.out.println("2. Tampilkan data Form");
+            System.out.println("===============");
             System.out.println("Pilihan : ");
             int mn = m.nextInt();
             
@@ -57,7 +57,7 @@ public class Array {
             System.out.println("Kota : ");
             String Kota = scan.nextLine();
             System.out.println("Kewarganegaraan : ");
-                String kewarganegaraan = scan.nextLine();
+            String kewarganegaraan = scan.nextLine();
 
             data data = new data();
             data.setNIK(NIK);
@@ -284,24 +284,11 @@ public class Array {
                     }
                     
                 }
+            }else{
+                System.out.println("Maaf, Pilihan hanya 1 dan 2 !!");
             }
         
         }while(true);
-        
-        
-                
-        
-        
-        
-        
-        
-        
-    
-    
-    
-    
-    
-    
-    
+   
     }
 }
