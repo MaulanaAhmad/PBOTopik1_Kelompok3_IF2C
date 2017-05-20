@@ -74,7 +74,6 @@ public class Array {
             boolean menu = true;
 
             Scanner inp = new Scanner(System.in);
-                System.out.println("");
             
             System.out.println("Pilih Kelurahan : ");
             System.out.println("1. Kelurahan Satu");
